@@ -64,3 +64,8 @@ entity Urgency : CodeList {
 
 type EMailAddress : String;
 type PhoneNumber  : String;
+
+entity Test {
+  title : String;
+  time  : Timestamp;
+}
